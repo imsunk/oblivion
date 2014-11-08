@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page not found &#8211; Oblivion</title>
+	
+<style>
+	/* Common elements */
+	a { color: #000000; }
+	body { background-color: #ffffff; }
+	blockquote { border-color: #dca740 !important; }
+	input:not([type="submit"]), textarea { color: #626262; border-color: #000000; }
+	::-webkit-input-placeholder { color: #000000; }
+	:-moz-placeholder { color: #000000; }
+	::-moz-placeholder { color: #000000; }
+	:-ms-input-placeholder { color: #000000; }
+	
+	.special-title-title, .special-title-subtitle { color: #000000; }
+	.special-title-line { background-color: #dca740; }
+	.social-icon { background-color: #000000; color: #ffffff; }
+	.social-icon:hover { background-color: #dca740; }
+	.load-more-button { color: #000000; border-color: #000000; }
+	.load-more-button:hover { color: #ffffff; background-color: #000000;}
+	
+	/* User menu */
+	.user-menu-search .search-input { color: #000000; }
+	
+	/* Navigation menu */
+	.menu > .menu-item:hover { border-color: #000000; }
+	.menu > .menu-item > a { color: #000000; }
+	.sub-menu { background-color: #000000; }
+	.sub-menu > .menu-item > a { color: #ffffff; }
+	.sub-menu > .menu-item > a:hover { color: #dca740; }
+	.current-menu-item { border-bottom-color: #000000; }
+	
+	@media screen and (max-width: 992px)
+	{
+		.navigation-menu li { background-color: #000000 !important; }
+		.navigation-menu a { color: #ffffff !important; }
+		.navigation-menu a:hover { color: #dca740 !important; }
+		.menu .menu-item { border-bottom: none !important; }
+		.mobile-menu-arrow { color: #ffffff; }
+	}
+	
+	/* Post */
+	.title-big-line { background-color: #dca740; }
+	.title-small-line { background-color: #dca740; }
+	
+	.thumbnail-placeholder { background-color: #626262; }
+	.thumbnail-title-text { color: #ffffff; }
+	.thumbnail-title-text span:last-child { color: #dca740; }
+	.thumbnail-date { color: #ffffff; }
+	.sticky .post-thumbnail:after { background-color: #dca740; color: #ffffff; }
+	
+	.social-share span, .social-share a { color: #000000 !important; }
+	.social-share a:hover {  color: #dca740 }
+	.button, .comment-reply-link, input[type="submit"] { background-color: #000000; color: #ffffff; }
+	.button:hover, .comment-reply-link:hover, input[type="submit"]:hover { background-color: #dca740; }
+	
+	.content-title, .content-subtitle { color: #000000; }
+	.content-title-link:hover { color: #dca740; }
+	.content-text { color: #626262; }
+	
+	#parallax-header { background: #ffffff no-repeat; }
+	#parallax-content { color: #ffffff; }
+	
+	.review-score, .category-grade { background-color: #dca740; color: #ffffff; }
+	.review-text { color: #626262; }
+	.category-line { background-color: #000000; }
+	.category-line-inner { background-color: #dca740; }
+	
+	.categories-tags-wrapper span { color: #000000; }
+	
+	.author-highlight { color: #dca740; }
+	
+	/* Sidebar */
+	#sidebar h2, #sidebar a, #sidebar .textwidget, #sidebar li { color: #000000; }
+	#sidebar .sub-menu a, #sidebar .sub-menu li { color: #ffffff; }
+	#sidebar .sub-menu > .menu-item > a:hover { color: #dca740; }
+	#sidebar span { color: #626262; }
+	
+	#footer { background-color: #000000; }
+	#copyright-text { color: #ffffff; }
+	#footer-sidebar h2, #footer-sidebar a, #footer-sidebar .textwidget, #footer-sidebar label, #footer-sidebar li { color: #ffffff; }
+	#footer-sidebar span { color: #626262; }
+	
+	/* Widgets */
+	.oblivion-recent-posts-title { color: #000000; }
+	.oblivion-recent-posts-text { color: #626262; }
+	
+	#footer-sidebar .oblivion-subscribe .email-subscribe { border-color: #ffffff; background-color: #000000; color: #ffffff; }
+	#footer-sidebar .oblivion-subscribe .submit-subscribe { color: #dca740; border-color: #ffffff; }
+	#footer-sidebar .oblivion-subscribe .submit-subscribe:hover { background-color: #ffffff; }
+	#footer-sidebar .email-subscribe::-webkit-input-placeholder { color: #ffffff; }
+	#footer-sidebar .email-subscribe:-moz-placeholder { color: #ffffff; }
+	#footer-sidebar .email-subscribe::-moz-placeholder { color: #ffffff; }
+	#footer-sidebar .email-subscribe:-ms-input-placeholder { color: #ffffff; }
+	#footer-sidebar .oblivion-subscribe .status-message { color: #ffffff; }
+	#footer-sidebar #calendar_wrap { color: #ffffff; }
+	
+	#sidebar .oblivion-social-media a { color: #000000; }
+	#footer-sidebar .oblivion-social-media a { color: #dca740; }
+	
+	/* Homepage slider */
+	.slide-text { color: #ffffff; }
+	.post-type-main { background-color: #dca740; color: #ffffff; }
+	.post-type-arrow { border-top-color: #dca740 !important; }
+	
+	/* Homepage masonry */
+	.masonry-control { color: #000000; border-color:  #000000; }
+	.radio-button-wrapper.selected .radio-button-inner { background-color: #000000; }
+	.select-field-buttons { background-color: #ffffff; }
+	.loved { background-color: #dca740; }
+	
+	/* Comments */
+	.comment-edit-link { color: #000000; }
+	.comment-text { color: #626262; }
+	.logged-in-as a { color: #dca740; }
+	#reply-title a { color: #dca740; }
+	#cancel-comment-reply-link span { color: #000000; }
+	.open-comments, .add-comment { color: #000000; }
+	.reply-text { color: #626262; }
+	
+	/* Page */
+	.page-title { color: #000000; }
+	.page-text { color: #626262; }
+	
+	.oblivion-gallery-text { background-color: #000000; }
+	.gallery-text-inner { color: #626262; }
+	.button-gallery { border: 1px solid #dca740; }
+	
+	.author-title-text { color: #000000; }
+	.author-title-line { background-color: #000000; }
+	.author-name, .author-description { color: #626262; }
+	
+	.text-404 { color: #000000; }
+	
+	</style>	<style></style>
+	<link rel="alternate" type="application/rss+xml" title="Oblivion &raquo; Feed" href="http://atosic.com/oblivion/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Oblivion &raquo; Comments Feed" href="http://atosic.com/oblivion/comments/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://atosic.com/oblivion/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://atosic.com/oblivion/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.6.0&#038;ver=4.0' type='text/css' media='all' />
+<style type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='oblivion-style-css'  href='http://atosic.com/oblivion/wp-content/themes/oblivion/style.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oblivion-responsive-css-css'  href='http://atosic.com/oblivion/wp-content/themes/oblivion/css/responsive.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oblivion-custom-scrollbar-css-css'  href='http://atosic.com/oblivion/wp-content/themes/oblivion/css/jquery.mCustomScrollbar.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oblivion-font-awesome-css-css'  href='http://atosic.com/oblivion/wp-content/themes/oblivion/fonts/font-awesome/css/font-awesome.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oblivion-font-novecento-css-css'  href='http://atosic.com/oblivion/wp-content/themes/oblivion/fonts/novecento-sans-wide/stylesheet.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oblivion-font-roboto-css-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C100%2C100italic%2C300%2C300italic%2C400italic%2C500%2C500italic%2C700%2C700italic%2C900italic%2C900&#038;ver=4.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?rev=4.6.0&#038;ver=4.0'></script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.6.0&#038;ver=4.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://atosic.com/oblivion/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://atosic.com/oblivion/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+</head>
+<body class="error404">
+	<header id="header">
+		<div id="user-menu-wrapper" class="clearfix">
+			<ul id="user-menu">
+				<li class="user-menu-search">
+					<a href="#"><i class="fa fa-search"></i>SEARCH</a>
+					<form role="search" method="get" class="searchform" action="http://atosic.com/oblivion/">
+	<div>
+		<label class="screen-reader-text">Search for:</label>
+		<input type="text" value="" name="s" class="search-input" />
+		<input type="submit" class="search-submit" value="Search" />
+	</div>
+</form>				</li>
+				<li>
+					<a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-behance"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-google-plus"></i></a>				</li>
+			</ul>
+		</div>
+		<div id="navigation-menu-wrapper" class="clearfix">
+			<a href="http://atosic.com/oblivion"><img id="header-logo" src="http://atosic.com/oblivion/wp-content/themes/oblivion/images/header-logo.png" alt=""></a>
+			<img class="mobile-menu-icon" src="http://atosic.com/oblivion/wp-content/themes/oblivion/images/mobile-menu-icon.png" alt="">
+			<div class="navigation-menu"><ul id="menu-menu-1" class="menu"><li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-4"><a href="http://atosic.com/oblivion/">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-201" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-201"><a href="http://atosic.com/oblivion/?slider=revolution">Home Revolution Slider</a></li>
+</ul>
+</li>
+<li id="menu-item-155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-155"><a href="#">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-162" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-162"><a href="#">Post Types</a>
+	<ul class="sub-menu">
+		<li id="menu-item-168" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-168"><a href="#">Regular Posts</a>
+		<ul class="sub-menu">
+			<li id="menu-item-169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169"><a href="http://atosic.com/oblivion/?p=18">Normal Featured Image</a></li>
+			<li id="menu-item-170" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170"><a href="http://atosic.com/oblivion/?p=119">Full Width Featured Image</a></li>
+		</ul>
+</li>
+		<li id="menu-item-165" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-165"><a href="#">Video Post</a>
+		<ul class="sub-menu">
+			<li id="menu-item-175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-175"><a href="http://atosic.com/oblivion/?p=172">Normal Video Post</a></li>
+			<li id="menu-item-171" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-171"><a href="http://atosic.com/oblivion/?p=10">Full Width Video Post</a></li>
+		</ul>
+</li>
+		<li id="menu-item-166" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-166"><a href="#">Audio Post</a>
+		<ul class="sub-menu">
+			<li id="menu-item-176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-176"><a href="http://atosic.com/oblivion/?p=110">Soundcloud Post</a></li>
+			<li id="menu-item-182" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-182"><a href="http://atosic.com/oblivion/?p=179">Spotify Post</a></li>
+		</ul>
+</li>
+		<li id="menu-item-164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-164"><a href="#">Review Post</a>
+		<ul class="sub-menu">
+			<li id="menu-item-177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-177"><a href="http://atosic.com/oblivion/?p=32">Normal Review Post</a></li>
+			<li id="menu-item-178" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-178"><a href="http://atosic.com/oblivion/?p=14">Full Width Review Post</a></li>
+		</ul>
+</li>
+		<li id="menu-item-227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-227"><a href="#">Gallery Post</a>
+		<ul class="sub-menu">
+			<li id="menu-item-228" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228"><a href="http://atosic.com/oblivion/214/">Normal Gallery Post</a></li>
+			<li id="menu-item-229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229"><a href="http://atosic.com/oblivion/walking-in-la/">Full Width Gallery Post</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="http://atosic.com/oblivion/gallery/">Gallery</a></li>
+	<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a href="http://atosic.com/oblivion/contact-page/">Contact page</a></li>
+	<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://atosic.com/oblivion/authors/">Authors</a></li>
+	<li id="menu-item-187" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-187"><a href="http://atosic.com/oblivion/404">404 Page</a></li>
+</ul>
+</li>
+<li id="menu-item-156" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-156"><a href="http://atosic.com/oblivion/category/travel/">Travel</a></li>
+<li id="menu-item-157" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-157"><a href="http://atosic.com/oblivion/category/culture/">Culture</a></li>
+<li id="menu-item-158" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-158"><a href="http://atosic.com/oblivion/category/sport-2/">Sport</a></li>
+<li id="menu-item-159" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-159"><a href="http://atosic.com/oblivion/category/music/">Music</a></li>
+<li id="menu-item-160" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-160"><a href="http://atosic.com/oblivion/category/design/">Design</a></li>
+</ul></div>		</div>
+	</header>
+	<div id="parallax-header" style="height: 300px; background-image: url(http://atosic.com/oblivion/wp-content/uploads/2014/09/parallax-image.jpg);">
+		<div id="parallax-header-overlay" style="opacity: 0.6;"></div>
+		<div id="parallax-content">
+			<img class="aligncenter" src="http://atosic.com/oblivion/wp-content/themes/oblivion/images/parallax-header-logo.png" alt="" />		</div>
+	</div>
+<div id="content" class="clearfix">
+	<div id="main" class="search-page column col-10">
+		<div class="content-404">
+			<div class="text-404"><span class="number-404">404</span><span class="text-inner-404">page not found</span></div>
+			<a class="button" href="http://atosic.com/oblivion">go home</a>
+		</div>
+	</div>
+			<div id="sidebar" class="column col-2 clearfix">
+					<div class="widget-sidebar clearfix">		<h2 class="widget-sidebar-title">Most popular:</h2>		<ul class="oblivion-recent-posts">
+					<li>
+										<a href="http://atosic.com/oblivion/review-post/"><div class="oblivion-recent-posts-image" style="background-image: url('http://atosic.com/oblivion/wp-content/uploads/2014/09/112.jpg');"></div></a>
+								<a class="oblivion-recent-posts-title" href="http://atosic.com/oblivion/review-post/">madrid new downhill longboard</a>
+				<p class="oblivion-recent-posts-text">Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to...</p>
+			</li>
+					<li>
+										<a href="http://atosic.com/oblivion/molestiae-consequatur/"><div class="oblivion-recent-posts-image" style="background-image: url('http://atosic.com/oblivion/wp-content/uploads/2014/09/22.jpg');"></div></a>
+								<a class="oblivion-recent-posts-title" href="http://atosic.com/oblivion/molestiae-consequatur/">blank and white</a>
+				<p class="oblivion-recent-posts-text">Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to...</p>
+			</li>
+					<li>
+										<a href="http://atosic.com/oblivion/vel-illum-qui/"><div class="oblivion-recent-posts-image" style="background-image: url('http://atosic.com/oblivion/wp-content/uploads/2014/09/32.jpg');"></div></a>
+								<a class="oblivion-recent-posts-title" href="http://atosic.com/oblivion/vel-illum-qui/">Downhill longboard crew</a>
+				<p class="oblivion-recent-posts-text">Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to...</p>
+			</li>
+				</ul>
+		</div>		</div>
+</div>
+	<footer id="footer">
+		<div id="footer-inner">
+			<div id="footer-sidebar">
+				<div class="footer-widget-row clearfix">		<div class="column col-6 widget-footer clearfix">				<div class="oblivion-subscribe">
+			<form class="clearfix" name="oblivion-subscribe" action="http://atosic.com/oblivion/wp-admin/admin-ajax.php" method="GET">
+				<input type="email" name="email" class="email-subscribe" placeholder="sign up for emails">
+				<input type="submit" name="submit" class="submit-subscribe" value="subscribe">
+				<p class="status-message"></p>
+			</form>
+		</div>
+		</div><div class="column col-6 widget-footer clearfix"><h2 class="widget-footer-title"> </h2>		<ul>
+	<li class="cat-item cat-item-12"><a href="http://atosic.com/oblivion/category/culture/" >Culture</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://atosic.com/oblivion/category/design/" >Design</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://atosic.com/oblivion/category/music/" >Music</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://atosic.com/oblivion/category/sport-2/" >Sport</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://atosic.com/oblivion/category/travel/" >Travel</a>
+</li>
+		</ul>
+</div></div><div class="footer-widget-row clearfix">		<div class="column col-12 widget-footer clearfix">				<div class="oblivion-social-media">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook-square"></i>facebook</a>				<li><a href="#"><i class="fa fa-twitter-square"></i>twitter</a>				<li><a href="#"><i class="fa fa-instagram"></i>instagram</a>				<li><a href="#"><i class="fa fa-google-plus-square"></i>google+</a>				<li><a href="#"><i class="fa fa-tumblr-square"></i>tumblr</a>				<li><a href="#"><i class="fa fa-pinterest-square"></i>pinterest</a>				<li><a href="#"><i class="fa fa-behance"></i>behance</a>				<li><a href="#"><i class="fa fa-dribbble"></i>dribbble</a>				<li><a href="#"><i class="fa fa-vimeo-square"></i>vimeo</a>								<li><a href="#"><i class="fa fa-rss-square"></i>rss</a>			</ul>
+		</div>
+		</div></div>			</div>
+			<div id="footer-logo"><img src="http://atosic.com/oblivion/wp-content/themes/oblivion/images/footer-logo.png" alt=""></div>
+			<div id="copyright-text">© 2014 ORBITAL INDUSTRIES DESIGNS - ALL RIGHTS RESERVED</div>
+		</div>
+	</footer>
+	<script>
+		var templateDir = "http://atosic.com/oblivion/wp-content/themes/oblivion"; 
+		var ajaxurl = "http://atosic.com/oblivion/wp-admin/admin-ajax.php"; 
+		var loadNextPage = { startPage: "1", maxPages: "3", nextLink: "http://atosic.com/oblivion/wp-content/themes/oblivion/css/mCSB_buttons.png/page/2/", pagedString: "page"  };
+	</script>
+	<script></script>
+	<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/atosic.com\/oblivion\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.9.3'></script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/themes/oblivion/js/jquery.lettering.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/themes/oblivion/js/isotope.pkgd.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/themes/oblivion/js/smoothscroll.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/themes/oblivion/js/jquery.transit.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/themes/oblivion/js/jquery.mCustomScrollbar.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://atosic.com/oblivion/wp-content/themes/oblivion/js/script.js?ver=1.0.0'></script>
+</body>
